@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    color: #4682b4;
+}
+
+.button-demo {
+    text-align: center;
+}
+
+.btn-container-1 {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn {
+    color: #0e0e0e; /* Text color */
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px; /* Set height for the button */
+    width: 200px; /* Set width for the button */
+    background-color: #d4d6c8; /* Initial background color */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.btn:hover {
+    background-color: #b7c666; /* Background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+.btn-1 {
+    font-weight: 100; /* Specific font weight for button */
+}
+
+.btn-1 svg {
+    position: absolute;
+    left: 0; /* Position SVG */
+    top: 0; /* Position SVG */
+    height: 100%; /* Match button height */
+    width: 100%; /* Match button width */
+}
+
+.btn-1 rect {
+    fill: none; /* No fill for the rectangle */
+    stroke: #0e0e0e; /* Initial stroke color */
+    stroke-width: 2;
+    transition: all 0.35s linear; /* Smooth transition for stroke */
+}
+
+.btn-1:hover rect {
+    stroke-width: 5; /* Increase stroke width on hover */
+    stroke-dasharray: 150, 150; /* Apply dash effect */
+    stroke-dashoffset: 48; /* Offset for animation effect */
+}
